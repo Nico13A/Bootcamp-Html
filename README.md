@@ -2,11 +2,11 @@
 
 Nuestro primer repositorio de GitHub.
 
-## Aprendemos a subir cambios en GitHub.
+## Aprendemos a subir cambios en GitHub
 
 Utilizamos los comandos git add, git commit y git push.
 
-## Aprendemos etiquetas.
+## Aprendemos etiquetas
 - html
 - head 
 - body 
@@ -15,3 +15,9 @@ Utilizamos los comandos git add, git commit y git push.
 - p
 - br
 - hr
+- meta (author, keywords, viewport)
+- img
+
+## Aprendemos sobre atributos
+
+Aprendemos a incorporar atributos a nuestras etiquetas en HTML.
