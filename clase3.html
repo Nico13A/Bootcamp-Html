@@ -16,17 +16,88 @@
     <span>Tipo inline</span>
     <p>Tipo bloque</p>
     -->
+
+    <!--     
     <div>
         Esto es un contenedor que puede contener otras etiquetas.
         <div>
             Por ejemplo esto es un contenedor contenido.
         </div>
-    </div>
+    </div> 
+    -->
 
+    <!--     
     <div>
         <marquee>Bienvenido a la clase número 2.</marquee>
         <h2>Título en el contenedor</h2>
         <p>Lorem <b>ipsum</b> dolor sit amet <strong>consectetur</strong> adipisicing elit. <abbr title="Class hace referencia a una clase">Class</abbr> Soluta, atque perferendis numquam nisi veniam adipisci, fugit eum placeat architecto incidunt unde explicabo blanditiis, ducimus reprehenderit distinctio itaque in ea quis? <span style="color: blue;">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span> Vel soluta <small>sit</small> tempore repellendus <del>distinctio</del> <ins>distinto</ins> consectetur <mark>aperiam</mark> accusamus natus explicabo ipsam iure nam expedita, <i>culpa sed</i> architecto in sequi, <em>quia aliquid?</em> x<sup>2</sup>. H<sub>2</sub>O.</p>
+    </div> 
+    -->
+
+    <div>
+        <h2>Primer formulario</h2>
+        <form>
+            <!-- <label for="usuario">Usuario</label> -->
+            <input type="text" id="usuario" name="nameUsuario" placeholder="Ingrese su usuario"><br>
+            <!-- <label for="clave">Clave</label> -->
+            <input type="password" id="clave" placeholder="Contraseña" name="nameClave"><br>
+            <input type="submit" value="Enviar">
+            <!--  
+            <input type="radio"><br>
+            <input type="checkbox"><br>
+            <input type="tel"><br>
+            <input type="email"><br>
+            <input type="color"><br>
+            <input type="date"><br>
+            <input type="file"><br>
+            -->
+        </form>
+    </div>
+
+    <div>
+        <h2>Segundo formulario</h2>
+        <form>
+            <input type="text" name="nombre" placeholder="Nombre/s" required>
+            <br>
+            <input type="text" name="apellido" placeholder="Apellido/s" required>
+            <br>
+            <input type="text" name="usuario" placeholder="Usuario">
+            <br>
+            <input type="password" name="clave" placeholder="Contraseña" required>
+            <br>
+            <input type="password" name="clave2" placeholder="Repetir contraseña" required>
+            <br>
+            <input type="tel" name="telefono" placeholder="Teléfono">
+            <br>
+            <input type="email" name="email" placeholder="Correo electrónico" required>
+            <br>
+            <label for="nacimiento">Fecha de nacimiento: </label> <br>
+            <input type="date" id="nacimiento" name="nacimiento">
+            <br>
+            <select name="pais">
+                <option value="" selected disabled hidden>País de origen</option>
+                <option value="1">Argentina</option>
+                <option value="2">Brasil</option>
+                <option value="3">Uruguay</option>
+                <option value="4">Ecuador</option>
+                <option value="5">Chile</option>
+            </select>
+            <br>
+            <label for="">Género:</label>
+            <input type="radio" id="femenino" name="sexo" value="1">
+            <label for="femenino">Femenino</label>
+
+            <input type="radio" id="masculino" name="sexo" value="2">
+            <label for="masculino">Masculino</label>
+
+            <input type="radio" id="otro" name="sexo" value="3">
+            <label for="otro">Otro</label>
+            <br>
+            <input type="checkbox" name="terminos" required>Acepto los términos y condiciones
+            <br>
+            <input type="submit" value="Registrar">
+            <input type="reset" value="Cancelar">
+        </form>
     </div>
 
 </body>
