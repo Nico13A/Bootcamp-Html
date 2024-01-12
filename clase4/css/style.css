@@ -1,0 +1,28 @@
+h1 {
+    background-color: blue;
+    color: white;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* PRIORIDADES DE MAYOR A MENOR
+Estilo en línea.
+Estilo interno.
+Estilo externo.
+Lo mismo aplica con !important.
+*/
+
+#h1Clase4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*
+OBS. Si se aplica un ID y una clase en un mismo elemento tiene más importancia el ID.
+*/
+
+/*
+External class
+Internal class
+External ID
+Internal ID Este le gana a los de arriba.
+*/
